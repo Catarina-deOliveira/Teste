@@ -1,0 +1,115 @@
+body {
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+.menu-principal {
+background-color: rgb(179, 173, 162);
+height: 130px;
+}
+main, content {
+width: 980px;
+float: left;
+}
+.logo {
+float: left;
+}
+.header-2 {
+background-color: #ffffff;
+width: 100%;
+border-bottom: 3px solid #efefef;
+}
+.menu ul li {
+display: inline-block;
+color: #8b8b8b;
+margin-left: 15px;
+height: 15px;
+}
+.menu ul li:hover {
+border-bottom: 2px solid #00bac6;
+}
+.menu ul li:hover {
+color: #00bac6;
+}
+.menu ul li a {
+color: #8b8b8b;
+text-decoration: none;
+font-size: 15px;
+text-transform: uppercase;
+}
+.col-100 {
+width: 100%;
+float: left;
+position: relative;
+}
+button.slick-prev {
+font-size: 0px;
+border: none;
+width: 40px;
+height: 62px;
+z-index: 9;
+background-color: transparent;
+position: absolute;
+background-image: url(imagens/setaB.png);
+top: 35%;
+left: 0;
+}
+button.slick-next {
+font-size: 0px;
+border: none;
+width: 40px;
+height: 62px;
+z-index: 9;
+background-color: transparent;
+position: absolute;
+background-image: url(imagens/setaA.png);
+top: 35%;
+right: 0;
+}
+ .slick-list {
+width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button {
+font-size: 0px;
+border: 5px solid #ffffff;
+width: 26px;
+height: 26px;
+background: transparent;
+border-radius: 50%;
+cursor: pointer;
+}
+.slick-dots {
+margin: 0 auto;
+width: 50%;
+position: absolute;
+left: 37%;
+top: 80%;
+}
+li.slick-active button {
+background: #00bac6;
+}
+.slick-dots li {
+padding-left: 10%;
+ display: inline-block;
+}
+.texto-destaque {
+    text-align: center;
+}
+.texto-destaque strong {
+    color: #646464;
+}
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #818181;
+}
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+.texto-destaque h3 {
+    color: #646464;
+}
